@@ -4,7 +4,7 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from main import average_temperature, is_comfortable, check_extremes
+from Temperature import average_temperature, is_comfortable, check_extremes
 
 def test_average_temperature():
     temps = [20.0, 22.0, 24.0]
